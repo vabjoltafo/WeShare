@@ -1,0 +1,18 @@
+.addFileBtn {
+  margin: 2rem auto;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  background-color: #427aa1;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+.actionsBtn {
+  display: flex;
+  flex-direction: row;
+}
+
+.tableData {
+  margin: 0 0.5rem;
+}

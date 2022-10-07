@@ -1,0 +1,179 @@
+.button {
+  font: inherit;
+  padding: 0.2rem 0.8rem;
+  border: 1px solid #427aa1;
+  border-radius: 4px;
+  background: #427aa1;
+  color: white;
+  cursor: pointer;
+  margin-top: 0.3rem;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover,
+.button:active {
+  background: #064789;
+  border-color: #064789;
+}
+
+.button--inverse {
+  background: transparent;
+  color: #d9534f;
+  border-color: #d9534f;
+}
+
+.button--inverse:hover,
+.button--inverse:active {
+  color: white;
+  background: #d9534f;
+  border-color: #d9534f;
+}
+
+.button--danger {
+  background: #d9534f;
+  border-color: #d9534f;
+}
+
+.button--danger:hover,
+.button--danger:active {
+  background: #dc3545;
+  border-color: #dc3545;
+}
+
+.button--confirm {
+  background-color: #5cb85c;
+  border-color: #5cb85c;
+}
+
+.button--confirm:hover,
+.button--confirm:active {
+  background-color: #198754;
+  border-color: #198754;
+}
+
+.button--edit {
+  background-color: #ffc107;
+  border-color: #ffc107
+}
+
+.button--edit:hover {
+  background-color: #e9b415;
+  border-color: #e9b415;
+}
+
+.button:disabled,
+.button:hover:disabled,
+.button:active:disabled {
+  background: #ccc;
+  color: #979797;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+.button--small {
+  font-size: 0.8rem;
+}
+
+.button--big {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .button {
+    font: inherit;
+    padding: 0.2rem 0.8rem;
+    border: 1px solid #427aa1;
+    border-radius: 4px;
+    background: #427aa1;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .button--marginRight {
+    margin-right: 1rem;
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+  
+  .button:hover,
+  .button:active {
+    background: #064789;
+    border-color: #064789;
+  }
+  
+  .button--inverse {
+    background: transparent;
+    color: #d9534f;
+    border-color: #d9534f;
+  }
+  
+  .button--inverse:hover,
+  .button--inverse:active {
+    color: white;
+    background: #d9534f;
+    border-color: #d9534f;
+  }
+  
+  .button--danger {
+    background: #d9534f;
+    border-color: #d9534f;
+  }
+  
+  .button--danger:hover,
+  .button--danger:active {
+    background: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .button--confirm {
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+  }
+  
+  .button--confirm:hover,
+  .button--confirm:active {
+    background-color: #198754;
+    border-color: #198754;
+  }
+  
+  .button--edit {
+    background-color: #ffc107;
+    border-color: #ffc107
+  }
+  
+  .button--edit:hover {
+    background-color: #e9b415;
+    border-color: #e9b415;
+  }
+  
+  .button:disabled,
+  .button:hover:disabled,
+  .button:active:disabled {
+    background: #ccc;
+    color: #979797;
+    border-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .button--small {
+    font-size: 0.8rem;
+  }
+  
+  .button--big {
+    font-size: 1.5rem;
+  }
+}
+

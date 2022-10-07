@@ -1,0 +1,26 @@
+.userProfile {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.tableData {
+  margin: 0 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .userProfile {
+    display: flex;
+    flex-direction: row;
+    margin: 0 2rem;
+  }
+  
+  .userInfo {
+    margin-top: 2rem;
+  }
+  
+  .tableData {
+    margin: 4rem auto;
+    width: 50rem;
+  }
+}

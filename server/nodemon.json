@@ -1,0 +1,11 @@
+{
+  "env": {
+    "DB_USER": "admin",
+    "DB_PASSWORD": "admin123",
+    "DB_NAME": "filestorage",
+    "DB_URL": "localhost:27017/filestorage",
+    "JWT_KEY": "supersecret_key_dont_share",
+    "AUTH_EMAIL": "weshare.suppport@gmail.com",
+    "AUTH_PASSWORD": "ywrbyfzegfemfphf"
+  }
+}

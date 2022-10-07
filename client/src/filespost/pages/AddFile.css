@@ -1,0 +1,32 @@
+.addFileForm {
+  margin: 8rem 0;
+}
+
+.addFileForm h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  text-transform: uppercase;  
+  font-size: 1.5rem;
+}
+
+.addFile {
+  width: 90%;
+  max-width: 30rem;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.addFile form {
+  margin-bottom: 1rem;
+  width: 80%;
+}
+
+@media (min-width: 768px) {
+  .addFileForm h1 {
+    font-size: 2rem;
+  }
+}

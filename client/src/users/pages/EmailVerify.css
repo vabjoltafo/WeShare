@@ -1,0 +1,33 @@
+.emailVerifyContainer {
+  padding-top: 4rem;
+}
+
+.emailVerify {
+  width: 90%;
+  max-width: 30rem;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.loginLink {
+  padding-bottom: 2rem;
+}
+
+.login-link {
+  background-color: #427aa1;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+.login-link:hover {
+  background-color: #064789;
+}
+
+.loginLink a {
+  color: white;
+  text-decoration: none;
+}

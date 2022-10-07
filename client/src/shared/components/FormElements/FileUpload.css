@@ -1,0 +1,18 @@
+.file-upload .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.file-upload button {
+  margin-top: 0;
+  background-color: green;
+  padding: 0.2rem 0.3rem;
+  border-color: green;
+}
+
+.file {
+  border: 2px solid green;
+  padding: 0.2rem 0.3rem;
+}

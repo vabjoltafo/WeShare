@@ -1,0 +1,30 @@
+.updateUserForm {
+  margin: 8rem 0;
+}
+
+.updateUser {
+  width: 90%;
+  max-width: 30rem;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.updateUser form {
+  margin-bottom: 1rem;
+  width: 80%;
+}
+
+.changePassword {
+  margin-top: 1rem;
+}
+
+.buttonActions {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

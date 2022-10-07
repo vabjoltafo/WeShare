@@ -1,0 +1,79 @@
+.usersList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.addUserLink {
+  margin-top: 2rem;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  background-color: #064789;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+.addUserLink:hover {
+  background-color: #427aa1;
+}
+
+.users-list {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  max-width: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.actionsBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items:flex-end;
+  width: auto;
+}
+
+.actionsBtn input {
+  margin: auto;
+  width: 17rem;
+  height: 2rem;
+}
+
+.addUserLink {
+  margin: 2rem auto;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  background-color: #427aa1;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+.addUserLink:hover {
+  background-color: #064789;
+}
+
+@media (min-width: 768px) {
+  .actionsBtn input {
+    margin: 2rem auto;
+    height: 2rem;
+    min-width: 20rem;
+    width: 36rem;
+    max-width: 36rem;
+    padding-left: 0.5rem;
+  }
+
+  .actionsBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+  align-items:flex-end;
+  }
+}
